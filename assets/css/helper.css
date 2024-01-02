@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.icon{
+    width : 30px;
+    cursor: pointer;
+}
+
+.text-gray {
+    color: rgb(85, 85, 85);
+}
+
+.btn-white {
+    /* padding: 1rem 0 ; */
+    padding-left : 2rem;
+    padding-right: 2rem;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+.btn-hover-balck:hover {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+ .btn-balck {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-weight: 400;
+}
+
+section.info_section .btn-hover-balck,
+header nav li a,
+section.info_section .btn-balck, .projects button{
+    transition: all .7s ease;
+}

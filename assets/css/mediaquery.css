@@ -1,0 +1,38 @@
+@media all and (max-width : 778px) {
+    .nav-link {
+        display: block;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .info_section img {
+        width: 60vh;
+    }
+
+    section.about__section .about-image{
+        width: 100%;
+        height: 80vh;
+        object-fit: contain;
+    }
+}
+
+@media all and (min-width : 779px) and (max-width : 991px){
+
+}
+
+@media all and (min-width : 776px ){
+    .about-me-info-box{
+        border: 1px solid black;
+        padding-top: 6rem;
+        padding-bottom: 5rem;
+        min-width: 20rem;
+        border-radius: 30px;
+        max-height: 10rem;
+    }
+
+    
+section.about__section .about-image{
+    width: 30%;
+    border-radius: 2rem;
+    margin-right: 2rem;
+}
+}

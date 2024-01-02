@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./node_modules//bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/helper.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaquery.css">
+    <title>MyPortfolio</title>
+</head>
+
+<body>
+
+    <header id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="text-uppercase" id="logo">Sidhant Kulkarni</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse mt-md-3" id="navbarSupportedContent">
+                    <ul class="d-flex flex-column align-items-md-center flex-md-row ml-md-auto pl-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects"> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- information section -->
+    <section class="info_section">
+        <div class="container">
+            <!-- <div > -->
+            <figure class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+                <img src="./assets/images/sidhant.jpg" alt="sidhant-image" alt="sidhant-image" class="img-fluid">
+                <div class="info_text text-center">
+                    <p class="text-gray">Hello, I'm</p>
+                    <h1 class="mt-3">Sidhant Kulkarni</h1>
+                    <h3 class="text-gray my-3">Frontend Developer</h3>
+                    <div class="info-btn">
+                        <button class="btn-hover-balck btn-white"
+                            onclick="window.open('./assets/images/Sidhant_Kulkarni_Angular_Developer_2_years.pdf')">
+                            Downlowd Cv
+                        </button>
+                        <button class="btn-balck btn-white ml-md-4">
+                            <a href="#contact-us" class="text-white"> conteact info</a>
+                        </button>
+                        <div class="info_icons mt-4 d-flex justify-content-center">
+                            <img src="./assets/images/linkedin.png"
+                                onclick="window.location.href='https://www.linkedin.com/in/sidhant-kulkarni-294b952a4/'"
+                                class="img-fluid mr-3 icon" alt="">
+                            <img src="./assets/images/github.png"
+                                onclick="window.location.href='https://github.com/SidhantSidhant'"
+                                class="img-fluid icon" alt="">
+                        </div>
+                    </div>
+                </div>
+            </figure>
+            <!-- </div> -->
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about__section">
+        <div class="container">
+            <p class="text-center">Get To Know More</p>
+            <h1 class="text-center">About Me</h1>
+            <div class="d-md-flex justify-content-around align-items-center">
+                <img src="./assets/images/sidhant-2.jpeg" class="img-fluid about-image" alt="">
+                <div>
+                    <div class="d-md-flex">
+                        <div
+                            class="about-me-info-box mr-4 d-flex flex-column justify-content-center align-items-center">
+                            <img src="./assets/images/experience.png" style="width:40px; height: 40px;" alt="">
+                            <h4 class="text-center">Experience</h4>
+                            <p class="text-center">2+ years <br>
+                            </p>
+                            <p class="text-center">Frontend Development</p>
+                        </div>
+                        <div class="about-me-info-box d-flex flex-column justify-content-center align-items-center">
+                            <!-- <img src="./assets/images/experience.png" alt=""> -->
+                            <h4 class="text-center">Experience</h4>
+                            <p class="text-center">2+ years <br>
+                            </p>
+                            <p class="text-center">Frontend Development</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis sapiente hic odio quod
+                        voluptates alias nobis excepturi perspiciatis natus voluptatem exercitationem voluptas quibusdam
+                        deserunt impedit libero rerum adipisci, quos nisi velit sunt! Quibusdam magni laborum
+                        perspiciatis, eaque quos nobis?</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experince section -->
+    <section id="experince">
+        <div class="container">
+            <p class="text-gray text-center">Explore My</p>
+            <h1 class="text-center">Experience</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="experince-box">
+                        <h4 class="text-gray text-center mb-5">Frontend Development</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 ">
+                    <div class="experince-box">
+                        <h4 class="text-center mb-5">Backend Development</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4 d-flex">
+                                <img src="./assets/images/checkmark.png" class="img-fluid"
+                                    style="width : 40px; height:40px" alt="">
+                                <p class="ml-md-3">
+                                    HTML <br>
+                                    <span class="text-gray">Experienced</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="projects">
+        <div class="container text-center">
+            <p>Browse My Recent</p>
+            <h1>Projects</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="project-box">
+                        <img src="./assets/images/Html css.jpg" class="img-fluid" alt="">
+                        <h3 class="text-uppercase">Indovance Demo</h3>
+                        <div class="cus-button">
+                            <button class="btn-hover-balck btn-white text-capitalize"
+                                onclick="window.location.href='https://github.com/SidhantSidhant'">
+                                github
+                            </button>
+                            <button class="btn-white btn-hover-balck ml-md-4"
+                                onclick="window.location.href='https://github.com/SidhantSidhant/Indovance_clone.git'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="project-box">
+                        <img src="./assets/images/node js.jpg" style="width: 100%;" alt="">
+                        <h3 class="text-uppercase">Node.js-webSite</h3>
+                        <div class="cus-button">
+                            <button class="btn-hover-balck btn-white text-capitalize"
+                                onclick="window.location.href='https://github.com/SidhantSidhant'">
+                                github
+                            </button>
+                            <button class="btn-white btn-hover-balck ml-md-4"
+                                onclick="window.location.href='https://github.com/SidhantSidhant/nodeJs-website.git'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="text-center">Get in touch</p>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="project-box">
+                        <img src="./assets/images/angular.jpg   " class="img-fluid" alt="">
+                        <h3 class="text-uppercase">FastKart DEMO</h3>
+                        <div class="cus-button">
+                            <button class="btn-hover-balck btn-white text-capitalize"
+                                onclick="window.location.href='https://github.com/SidhantSidhant'">
+                                github
+                            </button>
+                            <button class="btn-white btn-hover-balck ml-md-4"
+                                onclick="window.location.href='https://github.com/SidhantSidhant/FASTKART_CLONE.git'">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="contact-us mb-3">
+        <p class="text-center text-gray">Get in to tuch</p>
+        <div class="container d-flex justify-content-center">
+            <div class="contact-box d-md-flex flex-column align-items-center">
+                <h1>Contact Me</h1>
+                <div class="d-md-flex justify-content-md-center">
+                    <p>
+                        <a href="mailto:sidhantkulkarni9822@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="ml-2">sidhantkulkarni9822@gmail.com</span>
+                        </a>
+                    </p>
+                    <p class="ml-md-5"><a href="https://www.linkedin.com/in/sidhant-kulkarni-294b952a4/">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span class="ml-2">Linkdin</span>
+                        </a></p>
+                </div>
+                <p><a href="tel:9075870330">
+                        <i class="fa-solid fa-mobile"></i>
+                        <span class="ml-2">9075870330</span>
+                    </a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center p-3 text-white">
+        Copyright © 2024 Sidhant Kulkarni. All Rights Reserved
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
