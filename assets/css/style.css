@@ -23,13 +23,19 @@ a.nav-link {
 }
 
 /* <!-- information section --> */
-section.info_section {
-    padding: 5rem 0;
+section.info_section, .about__section, .experience, .projects {
+    padding: 4rem 0;
 }
 
-.info_text {
-    margin-left: 5rem;
+.image-width{
+    height: 17rem;
 }
+
+section.info_section .info_text p{
+    font-weight: 600;
+}
+
+
 
 section.info_section img{
     border-radius: 2rem;
@@ -44,10 +50,12 @@ section.info_section .text-gray {
 }
 
 section.about__section{
-    padding : 4rem 0;
+    padding : 1rem 0;
 }
 
-
+section.about__section p{
+    font-style:italic ;
+}
 /* projects */
 .projects{
     padding : 4rem 0 0 0;
@@ -56,7 +64,7 @@ section.about__section{
     border: 1px solid rgb(0, 0, 0, .4);
     padding : 2rem;
     border-radius: 2rem;
-    min-height: 24rem;
+    min-height: 28rem;
 }
 
 .project-box{
