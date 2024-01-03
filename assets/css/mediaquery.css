@@ -12,7 +12,7 @@
 
     .image-width{
         height: 22rem;
-        width: 37%;
+        width: 75%;
     }
 
 }
@@ -24,6 +24,10 @@
 
     .info_section h1, .info_section h3{
         font-size: 24px;
+    }
+
+    .image-width {
+        width: 100%;
     }
 }
 
